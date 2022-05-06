@@ -12,8 +12,8 @@ margin-bottom: 60px;
 
 .outer {
   background-color: white;
-  width: 700px;
-  height: 400px;
+  width: 800px;
+  height: 330px;
   display: flex;
   align-items: center;
   align-self: center;
@@ -26,13 +26,131 @@ border-radius: 20px;
 .left{
   background-color: white;
   height: 90%;
-  width: 47%;
-  border-radius: 20px;
+  width: 45%;
+  padding: 0 20px;
+   border-radius: 20px;
+
 }
 
 .right{
-  height: 90%;
-  width:47%;
+  height: 85%;
+  width:45%;
+  margin-right: 10px;
   border-radius: 20px;
   background-color: #00494d;
+}
+.billz{
+   position: absolute;
+   margin-left: 10px;
+   margin-top: 8px;
+   font-family: monospace;
+   font-weight: bold;
+   color: #808080;
+}
+
+.fields{
+    margin: 8px 20px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+ }
+
+ .fields:hover{
+   border: 2px solid #26C0AB ;
+
+ }
+
+ .green {
+   color: #00494d;
+   float: right;
+   border: none;
+ }
+
+.butt{
+  max-width: 55px;
+  border-radius: 3px;
+  border: 1px solid grey;
+height: 20px;
+padding-right: 5px;
+padding-top: 5px;
+font-family: monospace;
+font-weight: bolder;
+font-size: 15px;
+ }
+
+.textbox{
+  max-width: 200px;
+    height: 12px;
+   float: right;
+   padding: 6px 10px;
+   font-family: monospace;
+   font-weight: bolder;
+   font-size: 15px;
+   border-radius: 3px;
+  border: none;
+ }
+
+ .textbox::selection{
+   border: 0;
+ }
+
+button{
+  background-color: #00494d;
+  color: white;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 15px;
+  width: 32%;
+  height: 30px;
+  border-radius: 3px;
+  border-color: #00494d;
+}
+
+button:hover{
+  background-color: #26C0AB;
+  color: #00494d;
+  border-color: #26C0AB;
+
+}
+
+.whit{
+  background-color: white;
+  color: #00494d;
+color:#00494d;
+  border-color:  grey;
+}
+
+.whit:hover{
+  background-color: white;
+  border-color: #26C0AB;
+}
+
+.one{
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two{
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h4{
+   margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-family: monospace;
+   color: #808080;
+   font-weight: bolder;
+}
+
+.heigh{
+  margin-top: 30px;
+ margin-left: 20px;
+ margin-bottom: 5px;
+ font-family: monospace;
+  color: #808080;
+  font-weight: bolder;
 }
