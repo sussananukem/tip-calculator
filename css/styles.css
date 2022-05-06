@@ -36,7 +36,7 @@ border-radius: 20px;
   height: 85%;
   width:45%;
   margin-right: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #00494d;
 }
 .billz{
@@ -107,16 +107,16 @@ button{
 }
 
 button:hover{
-  background-color: #26C0AB;
+  background-color: #AEFEFF;
   color: #00494d;
-  border-color: #26C0AB;
+  border-color: #AEFEFF;
 
 }
 
 .whit{
   background-color: white;
   color: #00494d;
-color:#00494d;
+
   border-color:  grey;
 }
 
@@ -153,4 +153,41 @@ h4{
  font-family: monospace;
   color: #808080;
   font-weight: bolder;
+}
+
+.tip{
+  color: white;
+  margin-bottom: 3px;
+}
+p{
+  font-family: monospace;
+  font-size: 12px;
+  color: #C5E4E7;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+h1{
+  font-family: monospace;
+  color: #26C0AB;
+  margin-right: 20px;
+}
+
+.amount{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.reset{
+  background-color:#AEFEFF;
+  color:#00494d;
+  width: 60%;
+  border: none;
+  margin-top: 50px;
+  font-family: monospace;
+}
+.res{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
